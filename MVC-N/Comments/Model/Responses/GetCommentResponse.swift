@@ -7,7 +7,6 @@
 
 import Foundation
 //тут будем получать комментарии
-//наконец-то блять
 struct GetCommentResponse {
     typealias  JSON = [[String: AnyObject]]
     let comments: [Comment]
